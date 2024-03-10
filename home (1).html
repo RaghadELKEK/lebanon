@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="home.css">
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+            var button = document.querySelector("button");
+            button.addEventListener("click", function() {
+                var pageTitle = document.title;
+
+            
+                alert("Welcome to " + pageTitle);
+            });
+        });
+        </script>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <a href="#" class="logo">LEBANON</a>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="food.html">Food</a></li>
+                    <li><a href="music.html">Music</a></li>
+                    <li><a href="attractions.html">Attractions</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </header>
+            <div class="content">
+                <h2>LEBANON</h2>
+                <p>Lebanon's strategic location at the crossroads of the Middle East has played a pivotal role in its history and development. Situated on the eastern Mediterranean coast, it has served as a vital hub for trade, culture, and diplomacy for centuries. Its proximity to major regional powers has both enriched its cultural diversity and subjected it to geopolitical complexities. Despite its size, Lebanon's strategic significance continues to shape its destiny, influencing its relations with neighboring countries and global powers alike.</p>
+                <p>Lebanon stands out for its beautiful songs,delicious cuisine,and charming regions</p>
+                <button id="discoverButton">Click to discover it together</button>
+            </div>
+        </div>
+
+    </body>
+</html>
